@@ -1,0 +1,33 @@
+/*section and article and long writing*/
+
+.full-description h2 {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.full-description {
+    border: solid 3px black;
+    border-radius: 5px;
+    background: rgba(44, 44, 41, 0.9);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.about-description {
+    border: solid 1px black;
+    background: rgba(150, 170, 190, 0.8);
+    margin: 15px;
+}
+
+.our-history {
+    border: solid 1px black;
+    background: rgba(150, 170, 190, 0.8);
+    margin: 15px;
+}
