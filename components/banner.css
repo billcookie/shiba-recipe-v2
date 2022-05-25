@@ -1,0 +1,58 @@
+.banner {
+    height: 100vh;
+    background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46, 46, 46, 0.5) 80%), url("http://unsplash.it/400/300/?random");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*#banner {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1578133507770-a35cc3c786e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80/1300/600");
+    /* 1300 600
+background-size: cover;
+padding: 125px 0;
+color: black;
+margin: 0px;
+font-family: Courier;
+}
+
+*/
+
+#banner {
+    text-align: center;
+    background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46, 46, 46, 0.5) 80%), url(../images/shiba-banner.png);
+    background-size: cover;
+    padding: 125px 0;
+    color: black;
+    margin: 0px;
+    font-family: Courier;
+}
+
+#banner h1 {
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#banner h2 {
+    font-weight: lighter;
+    color: grey;
+}
+
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
