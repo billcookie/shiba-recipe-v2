@@ -49,3 +49,8 @@
     bottom: 10px;
     left: 10px;
 }
+
+.card:hover {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
