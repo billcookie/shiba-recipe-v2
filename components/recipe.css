@@ -1,0 +1,52 @@
+/* Below is the recipe and instructions on how to make the food*/
+
+.needed-ingredients {
+    border: black 2px solid;
+    background: rgb(123, 123, 123);
+    display: flex;
+    padding: 25px;
+    margin: 40px;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 1px 2px black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-image {
+    border-radius: 5px;
+    align-self: center;
+}
+
+.needed-ingredients-list {
+    border: black 3px solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.needed-ingredients h2 {
+    text-decoration: underline;
+    color: white;
+    align-self: center;
+}
+
+.needed-ingredients ul li {
+    list-style: none;
+    align-self: center;
+}
+
+.cooking-instructions {
+    border: black 3px solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.other-recipes h2 {
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
